@@ -2,13 +2,11 @@
 set -eux
 
 # macOS
-sudo softwareupdate -a -i
+sudo softwareupdate -d -a
 
 # brew
 brew update
 brew outdated --greedy
-brew upgrade --greedy
 
 # Mac App Store
 mas outdated
-mas upgrade
