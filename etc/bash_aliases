@@ -1,2 +1,7 @@
 #!/bin/bash
+
+# jsec
 alias jsec="${HOME}/Utils/bin/jsec-exec.sh"
+
+# brew
+alias brew="${HOME}/Utils/bin/brew.sh"
