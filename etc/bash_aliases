@@ -1,0 +1,2 @@
+#!/bin/bash
+alias jsec="${HOME}/Utils/bin/jsec-exec.sh"
