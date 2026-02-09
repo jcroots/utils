@@ -5,9 +5,10 @@ set -eux
 sudo softwareupdate -a -i
 
 # brew
-brew update
-brew outdated --greedy
-brew upgrade --greedy
+brew="${HOME}/Utils/bin/brew.sh"
+$brew update
+$brew outdated --greedy
+$brew upgrade --greedy
 
 # Mac App Store
 mas outdated

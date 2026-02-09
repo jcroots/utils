@@ -3,4 +3,4 @@ default:
 
 .PHONY: check
 check:
-	@shellcheck sbin/*.sh
+	@shellcheck bin/*.sh sbin/*.sh
