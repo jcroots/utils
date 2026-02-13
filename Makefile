@@ -3,4 +3,4 @@ default:
 
 .PHONY: check
 check:
-	@shellcheck bin/*.sh sbin/*.sh
+	@find . -type f -name '*.sh' | xargs shellcheck
