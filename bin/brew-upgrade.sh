@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-set -eux
+set -eu
 brew="${HOME}/Utils/bin/brew.sh"
+set -x
 $brew update
 $brew outdated --greedy
 $brew upgrade --greedy

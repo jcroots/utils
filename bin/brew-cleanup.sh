@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-set -eux
+set -eu
 brew="${HOME}/Utils/bin/brew.sh"
+set -x
 $brew cleanup --prune=all
