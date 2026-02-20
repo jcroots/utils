@@ -2,12 +2,7 @@
 set -eux
 
 # macOS
-sudo softwareupdate -d -a
-
-# brew
-brew="${HOME}/Utils/bin/brew.sh"
-$brew update
-$brew outdated --greedy
+sudo softwareupdate -a -d
 
 # Mac App Store
 mas outdated
