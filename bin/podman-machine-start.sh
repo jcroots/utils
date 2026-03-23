@@ -1,3 +1,3 @@
 #!/bin/bash
 set -eux
-exec podman machine start
+exec /opt/homebrew/bin/podman machine start
