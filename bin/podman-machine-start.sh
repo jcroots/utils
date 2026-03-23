@@ -1,3 +1,3 @@
 #!/bin/bash
 set -eux
-exec /opt/homebrew/bin/podman machine start
+exec /opt/homebrew/bin/podman machine start --no-info --quiet
